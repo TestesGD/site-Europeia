@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/6.6.6/css/flag-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+      <header class="navbar">
+      <h1>🗺️ Mapa Cultural</h1>
+
+      <!-- Checkbox invisível -->
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox" title="Alternar menu" aria-label="Alternar menu">
+
+      <!-- Ícone do menu -->
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Menu lateral -->
+      <div class="side-menu">
+        <a href="index.html">Culinária</a>
+        <a href="musica.html">Música</a>
+        <a href="historia.html">História</a>
+        <a href="papas.html">História Católica</a>
+      </div>
+      <style>
+          :root {
+            --cor-prin: linear-gradient(to right,#3498db, #2ecc71, #f1c40f);
+            --cor-segunda: linear-gradient(#3498db, #2ecc71, #f1c40f);
+            --cor-terceira:linear-gradient(to right,#3498db, #2ecc71, #f1c40f);
+          }
+        </style>
+
+    </header>
+      <section id="mapa" class="section texto-efeito">
+    <h2>Veja onde cada influência europeia se espalhou pelo Brasil.</h2>
+    <img src="MapChart_Map.png" alt="Mapa do Brasil" class="mapa">
+<ul class="mapa-legenda">
+    <li class="mapa-details">
+      <div class="bandeira-titulo">
+        <span class="fi fi-it"></span> Italianos 
+      </div>
+      <details>
+        <summary class="mapa-summary">
+          Clique para ver mais sobre como os italianos influenciaram a culinária brasileira e o estilo arquitetônico.
+        </summary>
+        <p>
+          Os italianos influenciaram muito a culinária e a arquitetura brasileira.</p>
+        <p>
+          Na culinária, trouxeram pratos como massas, pizzas, lasanhas, nhoques e vinhos, que se misturaram aos sabores locais e viraram parte da comida do dia a dia.
+        </p>
+        <p>
+          Na arquitetura, trouxeram o estilo neoclássico e renascentista, com colunas, arcos e fachadas decoradas, visíveis em obras como o Palácio da Liberdade (MG) e o Teatro Municipal do Rio de Janeiro (RJ).
+        </p>
+         <div class="card-container-obras">
+          <div class="card-obras">
+            <img src="italia/Palácio_da_Liberdade(Belo_Horizonte).jpg" alt="Palácio da Liberdade">
+            <h3>Palácio da Liberdade </h3><br>
+            <div class="caixa p">
+              <p><strong>Origem:</strong> Belo Horizonte, Brasil</p>
+              <p>Sede do governo mineiro com influência italiana, estilo neoclássico, com colunas e simetria elegante.</p>
+            </div>
+          </div>
+
+          <div class="card-obras">
+            <img src="italia/Teatro_Municipal_do_Rio_de_Janeiro.jpg" alt="Teatro Municipal do Rio de Janeiro">
+            <h3>Teatro Municipal do Rio de Janeiro</h3>
+            <div class="caixa p">
+              <p><strong>Origem:</strong> Rio de Janeiro, Brasil</p>
+              <p>Inspirado no renascentismo italiano, tem fachada luxuosa, colunas e vitrais, lembrando grandes teatros da Itália.</p>
+            </div>
+          </div>
+         </div>
+      </details>
+    </li>
+
+    <li class="mapa-details">
+      <div class="bandeira-titulo">
+        <span class="fi fi-de"></span> Alemães
+      </div>
+      <details>
+        <summary class="mapa-summary">
+          Clique para ver mais sobre como os alemães influenciaram a culinária brasileira e o estilo arquitetônico.
+        </summary>
+        <p>
+          Os alemães influenciaram o Brasil principalmente no Sul, onde se estabeleceram no século XIX.
+        </p>
+        <p>
+          Na culinária, trouxeram pratos como chucrute, salsichas, batatas, cervejas e cucas (bolos doces), que se tornaram típicos em estados como Santa Catarina e Rio Grande do Sul.
+        </p>
+        <p>
+          Na arquitetura, deixaram o estilo enxaimel, com casas de madeira aparente, telhados inclinados e janelas pequenas, visível em cidades como Blumenau e Pomerode (SC).
+        </p>
+        <div class="card-container-obras1">
+          <div class="card-obras1">
+            <img src="italia/Blumenau (SC) ale.jpg" alt="Cidade de Blumenau">
+            <h3>Cidade de Blumenau</h3>
+            <div class="caixa p">
+              <p><strong>Origem:</strong> Blumenau, Brasil</p>
+              <p>Cidade com forte influência alemã, marcada pelo estilo enxaimel, com casas de madeira aparente e telhados inclinados, trazido pelos imigrantes no século XIX.</p>
+            </div>
+          </div>
+
+          <div class="card-obras1">
+            <img src="italia/Pomerode (SC) ale.jpg" alt="Teatro Municipal do Rio de Janeiro">
+            <h3>Cidade de Pomerode</h3>
+            <div class="caixa p">
+              <p><strong>Origem:</strong> Pomerode, Brasil</p>
+              <p>Conhecida como “a cidade mais alemã do Brasil”, mantém o estilo enxaimel nas construções, com janelas pequenas e varandas floridas, típicas da Alemanha.</p>
+            </div>
+          </div>
+         </div>
+      </details>
+    </li>
+
+    <li class="mapa-details">
+      <div class="bandeira-titulo">
+        <span class="fi fi-pt"></span> Portugueses
+      </div>
+      <details>
+        <summary class="mapa-summary">
+          Clique para ver mais sobre como os portugueses influenciaram a culinária brasileira e o estilo arquitetônico.
+        </summary>
+        <p>
+          Os portugueses foram os primeiros a influenciar o Brasil, desde o período colonial.
+        </p>
+        <p>
+          Na culinária, trouxeram pratos como bacalhau, caldos, doces à base de ovos, azeite e o costume de usar arroz e feijão nas refeições.
+        </p>
+        <p>
+          Na arquitetura, introduziram o estilo colonial e barroco, com igrejas, azulejos coloridos, torres sineiras e varandas, visíveis em cidades como Ouro Preto (MG) e Tomar do Geru (SE).
+        </p>
+        <div class="card-container-obras2">
+          <div class="card-obras2">
+            <img src="italia/Igreja de São Francisco de Assis. por.jpg" alt="Igreja de São Francisco">
+            <h3>Igreja de São Francisco de Assis</h3>
+            <div class="caixa p">
+              <p><strong>Origem:</strong> Ouro Preto, Brasil</p>
+              <p>Obra barroca de Aleijadinho, com altares dourados e esculturas, exemplo do barroco português no Brasil.</p>
+            </div>
+          </div>
+
+          <div class="card-obras2">
+            <img src="italia/igreja de tomar do geru por.jpg" alt="Convento de São Bento">
+            <h3>Igreja de Tomar do Geru</h3><br>
+            <div class="caixa p">
+              <p><strong>Origem:</strong> Tomar do Geru, Brasil</p>
+              <p>Um exemplo notável da influência portuguesa na arquitetura brasileira, a Igreja de Tomar do Geru é um marco histórico do estado de Sergipe.</p>
+            </div>
+          </div>
+         </div>
+      </details>
+    </li>
+    <li class="mapa-details">
+      <div class="bandeira-titulo">
+        <span class="fi fi-es"></span> Espanhóis
+      </div>
+      <details>
+        <summary class="mapa-summary">
+          Clique para ver mais sobre como os espanhóis influenciaram a culinária brasileira e o estilo arquitetônico.
+        </summary>
+        <p>
+          Os espanhóis influenciaram o Brasil principalmente em construções urbanas e militares.
+        </p>
+        <p>
+          Na culinária, trouxeram doces, pães e técnicas de conserva, que se misturaram aos hábitos locais.
+        </p>
+        <p>
+          Na arquitetura, deixaram traços do estilo colonial e neogótico, com arcos, varandas, fachadas imponentes e castelos, visíveis em obras como o Castelinho do Flamengo (RJ) e o Palácio dos Leões (MA).
+        </p>
+        <div class="card-container-obras3">
+          <div class="card-obras3">
+            <img src="italia/Castelinho do Flamengo esp.jpg" alt="Catedral da Sé">
+            <h3>Castelinho do Flamengo</h3>
+            <div class="caixa p">
+              <p><strong>Origem:</strong> Rio de Janeiro, Brasil</p>
+              <p>Construção em estilo neogótico espanhol, com torres, vitrais e janelas ogivais, lembrando castelos medievais da Espanha.</p>
+            </div>
+          </div>
+
+          <div class="card-obras3">
+            <img src="italia/Palácio dos Leões (MA esp.jpg" alt="Catedral Metropolitana">
+            <h3>Palácio dos Leões</h3>
+            <div class="caixa p">
+              <p><strong>Origem:</strong> Maranhão, Brasil</p>
+              <p>Edifício histórico com influência espanhola e portuguesa, possui arcos, varandas e colunas, destacando a arquitetura ibérica.</p>
+            </div>
+          </div>
+        </div>
+      </details>
+    </li>
+</ul>
+
+  </section>
+</body>
+</html>
